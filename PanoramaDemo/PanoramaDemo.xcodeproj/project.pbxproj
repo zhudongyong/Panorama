@@ -11,6 +11,9 @@
 		241095AA196D877D004B976B /* SpinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241095A8196D877D004B976B /* SpinVC.xib */; };
 		241095AE196D8920004B976B /* PanoramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 241095AC196D8920004B976B /* PanoramVC.m */; };
 		241095AF196D8920004B976B /* PanoramVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241095AD196D8920004B976B /* PanoramVC.xib */; };
+		24372313197C0C2F004D968C /* Button01.png in Resources */ = {isa = PBXBuildFile; fileRef = 24372310197C0C2F004D968C /* Button01.png */; };
+		24372314197C0C2F004D968C /* Button02.png in Resources */ = {isa = PBXBuildFile; fileRef = 24372311197C0C2F004D968C /* Button02.png */; };
+		24372315197C0C2F004D968C /* Button03.png in Resources */ = {isa = PBXBuildFile; fileRef = 24372312197C0C2F004D968C /* Button03.png */; };
 		247F0DD1196D1DD300CD200D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F0DD0196D1DD300CD200D /* Foundation.framework */; };
 		247F0DD3196D1DD300CD200D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F0DD2196D1DD300CD200D /* CoreGraphics.framework */; };
 		247F0DD5196D1DD300CD200D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F0DD4196D1DD300CD200D /* UIKit.framework */; };
@@ -202,6 +205,9 @@
 		241095AB196D8920004B976B /* PanoramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramVC.h; sourceTree = "<group>"; };
 		241095AC196D8920004B976B /* PanoramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramVC.m; sourceTree = "<group>"; };
 		241095AD196D8920004B976B /* PanoramVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanoramVC.xib; sourceTree = "<group>"; };
+		24372310197C0C2F004D968C /* Button01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button01.png; sourceTree = "<group>"; };
+		24372311197C0C2F004D968C /* Button02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button02.png; sourceTree = "<group>"; };
+		24372312197C0C2F004D968C /* Button03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button03.png; sourceTree = "<group>"; };
 		247F0DCD196D1DD300CD200D /* PanoramaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247F0DD0196D1DD300CD200D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		247F0DD2196D1DD300CD200D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -410,6 +416,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2437230F197C0C2F004D968C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				24372310197C0C2F004D968C /* Button01.png */,
+				24372311197C0C2F004D968C /* Button02.png */,
+				24372312197C0C2F004D968C /* Button03.png */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		247F0DC4196D1DD300CD200D = {
 			isa = PBXGroup;
 			children = (
@@ -514,6 +530,7 @@
 		247F0E2B196D776200CD200D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				2437230F197C0C2F004D968C /* Buttons */,
 				247F0F5D196D790400CD200D /* AutoPlayStatus.png */,
 				247F0F5E196D790400CD200D /* Back.png */,
 				247F0F5F196D790400CD200D /* GestureGude.png */,
@@ -808,6 +825,7 @@
 				247F0F4F196D776300CD200D /* 00137.jpg in Resources */,
 				247F0EDC196D776300CD200D /* 00022.jpg in Resources */,
 				247F0ED3196D776300CD200D /* 00013.jpg in Resources */,
+				24372314197C0C2F004D968C /* Button02.png in Resources */,
 				247F0ED8196D776300CD200D /* 00018.jpg in Resources */,
 				247F0F15196D776300CD200D /* 00079.jpg in Resources */,
 				247F0F29196D776300CD200D /* 00099.jpg in Resources */,
@@ -895,6 +913,7 @@
 				247F0F20196D776300CD200D /* 00090.jpg in Resources */,
 				247F0F43196D776300CD200D /* 00125.jpg in Resources */,
 				247F0F34196D776300CD200D /* 00110.jpg in Resources */,
+				24372313197C0C2F004D968C /* Button01.png in Resources */,
 				247F0F40196D776300CD200D /* 00122.jpg in Resources */,
 				247F0EF7196D776300CD200D /* 00049.jpg in Resources */,
 				247F0F3F196D776300CD200D /* 00121.jpg in Resources */,
@@ -921,6 +940,7 @@
 				247F0F53196D776300CD200D /* 00141.jpg in Resources */,
 				247F0DE4196D1DD300CD200D /* Main.storyboard in Resources */,
 				247F0F30196D776300CD200D /* 00106.jpg in Resources */,
+				24372315197C0C2F004D968C /* Button03.png in Resources */,
 				247F0F54196D776300CD200D /* 00142.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

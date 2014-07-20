@@ -7,15 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SphereTypes.h"
 
-typedef struct {
-    float x;
-    float y;
-    float z;
-}SphereRadian;
 
 @protocol SphereViewDelegate;
-
+@class RenderObject;
 @interface SphereView : UIView 
 @property (nonatomic, strong) UIImage   *frontImage;
 @property (nonatomic, strong) UIImage   *leftImage;
@@ -50,19 +46,29 @@ typedef struct {
 @end
 
 
-typedef NS_ENUM(NSUInteger, SphereFace) {
-    SphereFaceFront,
-    SphereFaceLeft,
-    SphereFaceBack,
-    SphereFaceRight,
-    SphereFaceUp,
-    SphereFaceDown,
-};
+@interface SphereView (Objects)
+
+- (NSArray*)objects;
+
+- (BOOL)addObjectWithImages:(NSArray*)images
+                       face:(SphereFace)face
+                        pos:(CGPoint)position    //[0, 1]
+                       size:(CGSize)size         //[0, 1]
+              animationType:(AnimationType)animationType;
+
+- (BOOL)removeObject:(RenderObject*)object;
+
+- (BOOL)removeObjectAtIndex:(NSUInteger)index;
+
+@end
+
 
 @protocol SphereViewDelegate <NSObject>
 @optional
 - (void)sphereView:(SphereView*)sphereView receivedActionInPosition:(CGPoint)position;
 
 - (void)sphereView:(SphereView*)sphereView receivedActionInFace:(SphereFace)face position:(CGPoint)position;
+
+- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index;
 
 @end
