@@ -20,26 +20,35 @@
 @property (nonatomic, strong) UIImage   *upImage;
 @property (nonatomic, strong) UIImage   *downImage;
 
-@property (nonatomic, readwrite) float          radius;
-@property (nonatomic, readwrite) SphereRadian   radian;
+@property (nonatomic, readwrite) float          radius;//Default 1024
+@property (nonatomic, readwrite) SphereRadian   radian;//
 
-@property (nonatomic) float zoom;
+@property (nonatomic) float zoom;   //Default is 1.0
+@property (nonatomic) float minZoom;//Default is 0.4
+@property (nonatomic) float maxZoom;//Default is 3
 
-@property (nonatomic) float     radianXAreaMax;
-@property (nonatomic) float     radianXAreaMin;
+@property (nonatomic) float     radianXAreaMax;//Default is 45
+@property (nonatomic) float     radianXAreaMin;//Default is -45
 
-@property (nonatomic) float     anglePerPixX;
-@property (nonatomic) float     anglePerPixY;
+@property (nonatomic) float     anglePerPixX;//Default is 1/150.0
+@property (nonatomic) float     anglePerPixY;//Default is 1/150.0
 
-@property (nonatomic) BOOL isPlay;
+@property (nonatomic) BOOL  enableScaleGesture;//Default is YES.
+
+@property (nonatomic, readonly) BOOL isUpdating;//实时更新状态
+@property (nonatomic, readonly) BOOL isPlay;
 
 @property (nonatomic, assign) id<SphereViewDelegate> delegate;
 
 - (void)setImagesWithPackageName:(NSString*)packageName;
 
+- (void)startUpdate;
+
 - (void)play;
 
 - (void)stop;
+
+- (void)endUpdate;
 
 - (void)updateRadian:(SphereRadian)radian animated:(BOOL)animated;
 
@@ -59,6 +68,8 @@
 - (BOOL)removeObject:(RenderObject*)object;
 
 - (BOOL)removeObjectAtIndex:(NSUInteger)index;
+
+- (void)removeAllObjects;
 
 @end
 
