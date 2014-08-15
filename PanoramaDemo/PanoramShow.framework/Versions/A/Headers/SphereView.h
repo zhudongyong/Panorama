@@ -59,6 +59,21 @@
 
 - (NSArray*)objects;
 
+//Images Change Animation
+- (BOOL)addObjectWithImages:(NSArray*)images
+                       face:(SphereFace)face
+                        pos:(CGPoint)position    //[0, 1]
+                       size:(CGSize)size;
+
+//Scale | Transform | rotate Animation
+- (BOOL)addObjectWithImage:(UIImage*)images
+                      face:(SphereFace)face
+                       pos:(CGPoint)position    //[0, 1]
+                      size:(CGSize)size         //[0, 1]
+                     scale:(CGSize)scale
+                 transform:(CGSize)transform
+                    rotate:(float)radian;
+
 - (BOOL)addObjectWithImages:(NSArray*)images
                        face:(SphereFace)face
                         pos:(CGPoint)position    //[0, 1]

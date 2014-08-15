@@ -15,6 +15,15 @@ typedef struct {
     float z;
 }SphereRadian;
 
+
+typedef struct {
+    GLfloat v11,v12,v13;
+    GLfloat v21,v22,v23;
+    GLfloat v31,v32,v33;
+    GLfloat v41,v42,v43;
+}RenderVertices;
+
+
 typedef NS_ENUM(NSUInteger, SphereFace) {
     SphereFaceFront,
     SphereFaceLeft,
@@ -30,6 +39,7 @@ typedef NS_ENUM(NSUInteger, AnimationType) {
     AnimationTypeUpDown,
     AnimationTypeChangeImage,
     AnimationTypeScale,
+    AnimationTypeCustom
 };
 
 #endif
