@@ -55,10 +55,20 @@
     self.spinIV.enablePanGesture = YES;
 }
 
+- (void)dealloc {
+    [self.spinIV stop];
+    self.spinIV.delegate = nil;
+    self.spinIV = nil;
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)prefersStatusBarHidden {
+    return YES;
 }
 
 #pragma mark - IBAction

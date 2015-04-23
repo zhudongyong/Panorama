@@ -10,31 +10,31 @@
 	<string>PanoramaDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>30A8FF3B-BC21-4F31-BF8E-9028FFE617C6</key>
-		<string>https://github.com/zhudongyong/Panorama.git</string>
+		<key>EA002A23579EC2C4BC3F670CC5682A6B0DD3187A</key>
+		<string>https://innovator1229%2540gmail.com@github.com/zhudongyong/Panorama.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>PanoramaDemo/PanoramaDemo.xcodeproj/project.xcworkspace</string>
+	<string>PanoramaDemo/PanoramaDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>30A8FF3B-BC21-4F31-BF8E-9028FFE617C6</key>
+		<key>EA002A23579EC2C4BC3F670CC5682A6B0DD3187A</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/zhudongyong/Panorama.git</string>
+	<string>https://innovator1229%2540gmail.com@github.com/zhudongyong/Panorama.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>30A8FF3B-BC21-4F31-BF8E-9028FFE617C6</string>
+	<string>EA002A23579EC2C4BC3F670CC5682A6B0DD3187A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>30A8FF3B-BC21-4F31-BF8E-9028FFE617C6</string>
+			<string>EA002A23579EC2C4BC3F670CC5682A6B0DD3187A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Panorama Demo</string>
+			<string>Panorama%20Demo</string>
 		</dict>
 	</array>
 </dict>

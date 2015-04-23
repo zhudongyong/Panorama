@@ -38,7 +38,7 @@
     self.panoramView.radianXAreaMax = 45;
     self.panoramView.radianXAreaMin = -45;
     self.panoramView.zoom = 1;
-    self.panoramView.radius = 1024;
+    self.panoramView.radius = 1024/3;
     self.panoramView.radian = (SphereRadian){0, 0, 0};
     
     _currentIndex = 1;
@@ -75,7 +75,7 @@
     
     switch (_currentIndex) {
         case 11: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             //Back
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceRight
@@ -116,7 +116,7 @@
             break;
         }
         case 111: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceFront
@@ -136,7 +136,7 @@
             break;
         }
         case 1111: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceBack
@@ -155,7 +155,7 @@
             break;
         }
         case 112: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceRight
@@ -174,7 +174,7 @@
             break;
         }
         case 1121: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceFront
@@ -193,7 +193,7 @@
             break;
         }
         case 113: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceLeft
@@ -212,7 +212,7 @@
             break;
         }
         case 1131: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceFront
@@ -231,7 +231,7 @@
             break;
         }
         case 114: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceRight
@@ -250,7 +250,7 @@
             break;
         }
         case 1141: {
-            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", _currentIndex]];
+            [self.panoramView setImagesWithPackageName:[NSString stringWithFormat:@"%d@2x.bundle", (int)_currentIndex]];
             
             [self.panoramView addObjectWithImage:[UIImage imageNamed:@"hotspot_arrow.png"]
                                             face:SphereFaceFront

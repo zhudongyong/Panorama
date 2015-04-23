@@ -806,7 +806,7 @@
 				ORGANIZATIONNAME = MyCompony;
 				TargetAttributes = {
 					247F0DCC196D1DD300CD200D = {
-						DevelopmentTeam = 9C7B5KR896;
+						DevelopmentTeam = H9W9RZS6TM;
 					};
 					247F0DED196D1DD300CD200D = {
 						TestTargetID = 247F0DCC196D1DD300CD200D;
@@ -1185,6 +1185,7 @@
 				GCC_PREFIX_HEADER = "PanoramaDemo/PanoramaDemo-Prefix.pch";
 				INFOPLIST_FILE = "PanoramaDemo/PanoramaDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1203,6 +1204,7 @@
 				GCC_PREFIX_HEADER = "PanoramaDemo/PanoramaDemo-Prefix.pch";
 				INFOPLIST_FILE = "PanoramaDemo/PanoramaDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
