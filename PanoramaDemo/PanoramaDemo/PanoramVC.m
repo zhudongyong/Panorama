@@ -293,7 +293,7 @@
 }
 
 #pragma mark -
-- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index {
+- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index localPoint:(CGPoint)point {
     switch (_currentIndex) {
         case 1: {
             _currentIndex = 11;

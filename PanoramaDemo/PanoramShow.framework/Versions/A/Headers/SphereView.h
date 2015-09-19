@@ -95,6 +95,6 @@
 
 - (void)sphereView:(SphereView*)sphereView receivedActionInFace:(SphereFace)face position:(CGPoint)position;
 
-- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index;
+- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index localPoint:(CGPoint)point;
 
 @end
