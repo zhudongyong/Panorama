@@ -11,6 +11,27 @@
 		241095AA196D877D004B976B /* SpinVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241095A8196D877D004B976B /* SpinVC.xib */; };
 		241095AE196D8920004B976B /* PanoramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 241095AC196D8920004B976B /* PanoramVC.m */; };
 		241095AF196D8920004B976B /* PanoramVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 241095AD196D8920004B976B /* PanoramVC.xib */; };
+		247B5DB61C60FC8800A8129B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DA51C60FC8800A8129B /* 4.png */; };
+		247B5DB71C60FC8800A8129B /* hotspot_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DA61C60FC8800A8129B /* hotspot_arrow.png */; };
+		247B5DB81C60FC8800A8129B /* 一楼台球室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DA71C60FC8800A8129B /* 一楼台球室.bundle */; };
+		247B5DB91C60FC8800A8129B /* 一楼娱乐室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DA81C60FC8800A8129B /* 一楼娱乐室.bundle */; };
+		247B5DBA1C60FC8800A8129B /* 一楼客厅.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DA91C60FC8800A8129B /* 一楼客厅.bundle */; };
+		247B5DBB1C60FC8800A8129B /* 一楼浴室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DAA1C60FC8800A8129B /* 一楼浴室.bundle */; };
+		247B5DBC1C60FC8800A8129B /* 一楼钢琴室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DAB1C60FC8800A8129B /* 一楼钢琴室.bundle */; };
+		247B5DBD1C60FC8800A8129B /* 三楼书房.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DAC1C60FC8800A8129B /* 三楼书房.bundle */; };
+		247B5DBE1C60FC8800A8129B /* 三楼儿童房.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DAD1C60FC8800A8129B /* 三楼儿童房.bundle */; };
+		247B5DBF1C60FC8800A8129B /* 三楼大卧室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DAE1C60FC8800A8129B /* 三楼大卧室.bundle */; };
+		247B5DC01C60FC8800A8129B /* 三楼客厅.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DAF1C60FC8800A8129B /* 三楼客厅.bundle */; };
+		247B5DC11C60FC8800A8129B /* 三楼小卧室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DB01C60FC8800A8129B /* 三楼小卧室.bundle */; };
+		247B5DC21C60FC8800A8129B /* 三楼浴室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DB11C60FC8800A8129B /* 三楼浴室.bundle */; };
+		247B5DC31C60FC8800A8129B /* 二楼卧室.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DB21C60FC8800A8129B /* 二楼卧室.bundle */; };
+		247B5DC41C60FC8800A8129B /* 二楼大厅.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DB31C60FC8800A8129B /* 二楼大厅.bundle */; };
+		247B5DC51C60FC8800A8129B /* 二楼客厅.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DB41C60FC8800A8129B /* 二楼客厅.bundle */; };
+		247B5DC61C60FC8800A8129B /* 二楼餐厅.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DB51C60FC8800A8129B /* 二楼餐厅.bundle */; };
+		247B5DCE1C60FCAD00A8129B /* PanoramMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 247B5DC91C60FCAD00A8129B /* PanoramMenuItem.m */; };
+		247B5DCF1C60FCAD00A8129B /* PanoramMenuItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DCA1C60FCAD00A8129B /* PanoramMenuItem.xib */; };
+		247B5DD01C60FCAD00A8129B /* PanoramMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 247B5DCC1C60FCAD00A8129B /* PanoramMenuView.m */; };
+		247B5DD11C60FCAD00A8129B /* PanoramMenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 247B5DCD1C60FCAD00A8129B /* PanoramMenuView.xib */; };
 		247F0DD1196D1DD300CD200D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F0DD0196D1DD300CD200D /* Foundation.framework */; };
 		247F0DD3196D1DD300CD200D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F0DD2196D1DD300CD200D /* CoreGraphics.framework */; };
 		247F0DD5196D1DD300CD200D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 247F0DD4196D1DD300CD200D /* UIKit.framework */; };
@@ -32,26 +53,6 @@
 		24B73473199DB26E0027AD13 /* GestureGude.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B733BD199DB26E0027AD13 /* GestureGude.png */; };
 		24B73474199DB26E0027AD13 /* MoveStatus.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B733BE199DB26E0027AD13 /* MoveStatus.png */; };
 		24B73476199DB26E0027AD13 /* hotspot_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B733C1199DB26E0027AD13 /* hotspot_arrow.png */; };
-		24B73479199DB26E0027AD13 /* 1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733C5199DB26E0027AD13 /* 1.bundle */; };
-		24B7347A199DB26E0027AD13 /* 11.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733C6199DB26E0027AD13 /* 11.bundle */; };
-		24B7347B199DB26E0027AD13 /* 111.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733C7199DB26E0027AD13 /* 111.bundle */; };
-		24B7347C199DB26E0027AD13 /* 1111.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733C8199DB26E0027AD13 /* 1111.bundle */; };
-		24B7347D199DB26E0027AD13 /* 1111@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733C9199DB26E0027AD13 /* 1111@2x.bundle */; };
-		24B7347E199DB26E0027AD13 /* 111@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733CA199DB26E0027AD13 /* 111@2x.bundle */; };
-		24B7347F199DB26E0027AD13 /* 112.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733CB199DB26E0027AD13 /* 112.bundle */; };
-		24B73480199DB26E0027AD13 /* 1121.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733CC199DB26E0027AD13 /* 1121.bundle */; };
-		24B73481199DB26E0027AD13 /* 1121@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733CD199DB26E0027AD13 /* 1121@2x.bundle */; };
-		24B73482199DB26E0027AD13 /* 112@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733CE199DB26E0027AD13 /* 112@2x.bundle */; };
-		24B73483199DB26E0027AD13 /* 113.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733CF199DB26E0027AD13 /* 113.bundle */; };
-		24B73484199DB26E0027AD13 /* 1131.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D0199DB26E0027AD13 /* 1131.bundle */; };
-		24B73485199DB26E0027AD13 /* 1131@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D1199DB26E0027AD13 /* 1131@2x.bundle */; };
-		24B73486199DB26E0027AD13 /* 113@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D2199DB26E0027AD13 /* 113@2x.bundle */; };
-		24B73487199DB26E0027AD13 /* 114.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D3199DB26E0027AD13 /* 114.bundle */; };
-		24B73488199DB26E0027AD13 /* 1141.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D4199DB26E0027AD13 /* 1141.bundle */; };
-		24B73489199DB26E0027AD13 /* 1141@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D5199DB26E0027AD13 /* 1141@2x.bundle */; };
-		24B7348A199DB26E0027AD13 /* 114@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D6199DB26E0027AD13 /* 114@2x.bundle */; };
-		24B7348B199DB26E0027AD13 /* 11@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D7199DB26E0027AD13 /* 11@2x.bundle */; };
-		24B7348C199DB26E0027AD13 /* 1@2x.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 24B733D8199DB26E0027AD13 /* 1@2x.bundle */; };
 		24B7348D199DB26E0027AD13 /* 00000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24B733DA199DB26E0027AD13 /* 00000.jpg */; };
 		24B7348E199DB26E0027AD13 /* 00001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24B733DB199DB26E0027AD13 /* 00001.jpg */; };
 		24B7348F199DB26E0027AD13 /* 00002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24B733DC199DB26E0027AD13 /* 00002.jpg */; };
@@ -222,6 +223,29 @@
 		241095AB196D8920004B976B /* PanoramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramVC.h; sourceTree = "<group>"; };
 		241095AC196D8920004B976B /* PanoramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramVC.m; sourceTree = "<group>"; };
 		241095AD196D8920004B976B /* PanoramVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanoramVC.xib; sourceTree = "<group>"; };
+		247B5DA51C60FC8800A8129B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		247B5DA61C60FC8800A8129B /* hotspot_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotspot_arrow.png; sourceTree = "<group>"; };
+		247B5DA71C60FC8800A8129B /* 一楼台球室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "一楼台球室.bundle"; sourceTree = "<group>"; };
+		247B5DA81C60FC8800A8129B /* 一楼娱乐室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "一楼娱乐室.bundle"; sourceTree = "<group>"; };
+		247B5DA91C60FC8800A8129B /* 一楼客厅.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "一楼客厅.bundle"; sourceTree = "<group>"; };
+		247B5DAA1C60FC8800A8129B /* 一楼浴室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "一楼浴室.bundle"; sourceTree = "<group>"; };
+		247B5DAB1C60FC8800A8129B /* 一楼钢琴室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "一楼钢琴室.bundle"; sourceTree = "<group>"; };
+		247B5DAC1C60FC8800A8129B /* 三楼书房.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "三楼书房.bundle"; sourceTree = "<group>"; };
+		247B5DAD1C60FC8800A8129B /* 三楼儿童房.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "三楼儿童房.bundle"; sourceTree = "<group>"; };
+		247B5DAE1C60FC8800A8129B /* 三楼大卧室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "三楼大卧室.bundle"; sourceTree = "<group>"; };
+		247B5DAF1C60FC8800A8129B /* 三楼客厅.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "三楼客厅.bundle"; sourceTree = "<group>"; };
+		247B5DB01C60FC8800A8129B /* 三楼小卧室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "三楼小卧室.bundle"; sourceTree = "<group>"; };
+		247B5DB11C60FC8800A8129B /* 三楼浴室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "三楼浴室.bundle"; sourceTree = "<group>"; };
+		247B5DB21C60FC8800A8129B /* 二楼卧室.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "二楼卧室.bundle"; sourceTree = "<group>"; };
+		247B5DB31C60FC8800A8129B /* 二楼大厅.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "二楼大厅.bundle"; sourceTree = "<group>"; };
+		247B5DB41C60FC8800A8129B /* 二楼客厅.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "二楼客厅.bundle"; sourceTree = "<group>"; };
+		247B5DB51C60FC8800A8129B /* 二楼餐厅.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "二楼餐厅.bundle"; sourceTree = "<group>"; };
+		247B5DC81C60FCAD00A8129B /* PanoramMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramMenuItem.h; sourceTree = "<group>"; };
+		247B5DC91C60FCAD00A8129B /* PanoramMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramMenuItem.m; sourceTree = "<group>"; };
+		247B5DCA1C60FCAD00A8129B /* PanoramMenuItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanoramMenuItem.xib; sourceTree = "<group>"; };
+		247B5DCB1C60FCAD00A8129B /* PanoramMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanoramMenuView.h; sourceTree = "<group>"; };
+		247B5DCC1C60FCAD00A8129B /* PanoramMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanoramMenuView.m; sourceTree = "<group>"; };
+		247B5DCD1C60FCAD00A8129B /* PanoramMenuView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PanoramMenuView.xib; sourceTree = "<group>"; };
 		247F0DCD196D1DD300CD200D /* PanoramaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanoramaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		247F0DD0196D1DD300CD200D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		247F0DD2196D1DD300CD200D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -251,26 +275,6 @@
 		24B733BD199DB26E0027AD13 /* GestureGude.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GestureGude.png; sourceTree = "<group>"; };
 		24B733BE199DB26E0027AD13 /* MoveStatus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MoveStatus.png; sourceTree = "<group>"; };
 		24B733C1199DB26E0027AD13 /* hotspot_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hotspot_arrow.png; sourceTree = "<group>"; };
-		24B733C5199DB26E0027AD13 /* 1.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 1.bundle; sourceTree = "<group>"; };
-		24B733C6199DB26E0027AD13 /* 11.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 11.bundle; sourceTree = "<group>"; };
-		24B733C7199DB26E0027AD13 /* 111.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 111.bundle; sourceTree = "<group>"; };
-		24B733C8199DB26E0027AD13 /* 1111.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 1111.bundle; sourceTree = "<group>"; };
-		24B733C9199DB26E0027AD13 /* 1111@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "1111@2x.bundle"; sourceTree = "<group>"; };
-		24B733CA199DB26E0027AD13 /* 111@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "111@2x.bundle"; sourceTree = "<group>"; };
-		24B733CB199DB26E0027AD13 /* 112.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 112.bundle; sourceTree = "<group>"; };
-		24B733CC199DB26E0027AD13 /* 1121.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 1121.bundle; sourceTree = "<group>"; };
-		24B733CD199DB26E0027AD13 /* 1121@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "1121@2x.bundle"; sourceTree = "<group>"; };
-		24B733CE199DB26E0027AD13 /* 112@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "112@2x.bundle"; sourceTree = "<group>"; };
-		24B733CF199DB26E0027AD13 /* 113.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 113.bundle; sourceTree = "<group>"; };
-		24B733D0199DB26E0027AD13 /* 1131.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 1131.bundle; sourceTree = "<group>"; };
-		24B733D1199DB26E0027AD13 /* 1131@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "1131@2x.bundle"; sourceTree = "<group>"; };
-		24B733D2199DB26E0027AD13 /* 113@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "113@2x.bundle"; sourceTree = "<group>"; };
-		24B733D3199DB26E0027AD13 /* 114.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 114.bundle; sourceTree = "<group>"; };
-		24B733D4199DB26E0027AD13 /* 1141.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = 1141.bundle; sourceTree = "<group>"; };
-		24B733D5199DB26E0027AD13 /* 1141@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "1141@2x.bundle"; sourceTree = "<group>"; };
-		24B733D6199DB26E0027AD13 /* 114@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "114@2x.bundle"; sourceTree = "<group>"; };
-		24B733D7199DB26E0027AD13 /* 11@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "11@2x.bundle"; sourceTree = "<group>"; };
-		24B733D8199DB26E0027AD13 /* 1@2x.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "1@2x.bundle"; sourceTree = "<group>"; };
 		24B733DA199DB26E0027AD13 /* 00000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00000.jpg; sourceTree = "<group>"; };
 		24B733DB199DB26E0027AD13 /* 00001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00001.jpg; sourceTree = "<group>"; };
 		24B733DC199DB26E0027AD13 /* 00002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 00002.jpg; sourceTree = "<group>"; };
@@ -450,6 +454,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		247B5DA41C60FC8800A8129B /* SourcesA */ = {
+			isa = PBXGroup;
+			children = (
+				247B5DA51C60FC8800A8129B /* 4.png */,
+				247B5DA61C60FC8800A8129B /* hotspot_arrow.png */,
+				247B5DA71C60FC8800A8129B /* 一楼台球室.bundle */,
+				247B5DA81C60FC8800A8129B /* 一楼娱乐室.bundle */,
+				247B5DA91C60FC8800A8129B /* 一楼客厅.bundle */,
+				247B5DAA1C60FC8800A8129B /* 一楼浴室.bundle */,
+				247B5DAB1C60FC8800A8129B /* 一楼钢琴室.bundle */,
+				247B5DAC1C60FC8800A8129B /* 三楼书房.bundle */,
+				247B5DAD1C60FC8800A8129B /* 三楼儿童房.bundle */,
+				247B5DAE1C60FC8800A8129B /* 三楼大卧室.bundle */,
+				247B5DAF1C60FC8800A8129B /* 三楼客厅.bundle */,
+				247B5DB01C60FC8800A8129B /* 三楼小卧室.bundle */,
+				247B5DB11C60FC8800A8129B /* 三楼浴室.bundle */,
+				247B5DB21C60FC8800A8129B /* 二楼卧室.bundle */,
+				247B5DB31C60FC8800A8129B /* 二楼大厅.bundle */,
+				247B5DB41C60FC8800A8129B /* 二楼客厅.bundle */,
+				247B5DB51C60FC8800A8129B /* 二楼餐厅.bundle */,
+			);
+			path = SourcesA;
+			sourceTree = "<group>";
+		};
+		247B5DC71C60FCAD00A8129B /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				247B5DC81C60FCAD00A8129B /* PanoramMenuItem.h */,
+				247B5DC91C60FCAD00A8129B /* PanoramMenuItem.m */,
+				247B5DCA1C60FCAD00A8129B /* PanoramMenuItem.xib */,
+				247B5DCB1C60FCAD00A8129B /* PanoramMenuView.h */,
+				247B5DCC1C60FCAD00A8129B /* PanoramMenuView.m */,
+				247B5DCD1C60FCAD00A8129B /* PanoramMenuView.xib */,
+			);
+			path = MenuView;
+			sourceTree = "<group>";
+		};
 		247F0DC4196D1DD300CD200D = {
 			isa = PBXGroup;
 			children = (
@@ -487,6 +528,7 @@
 		247F0DD6196D1DD300CD200D /* PanoramaDemo */ = {
 			isa = PBXGroup;
 			children = (
+				247B5DC71C60FCAD00A8129B /* MenuView */,
 				241095AB196D8920004B976B /* PanoramVC.h */,
 				241095AC196D8920004B976B /* PanoramVC.m */,
 				241095AD196D8920004B976B /* PanoramVC.xib */,
@@ -554,6 +596,7 @@
 		247F0E2B196D776200CD200D /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				247B5DA41C60FC8800A8129B /* SourcesA */,
 				24B733BB199DB26E0027AD13 /* AutoPlayStatus.png */,
 				24B733BC199DB26E0027AD13 /* Back.png */,
 				24B733BD199DB26E0027AD13 /* GestureGude.png */,
@@ -576,26 +619,6 @@
 		24B733C4199DB26E0027AD13 /* Panorama Sources */ = {
 			isa = PBXGroup;
 			children = (
-				24B733C5199DB26E0027AD13 /* 1.bundle */,
-				24B733C6199DB26E0027AD13 /* 11.bundle */,
-				24B733C7199DB26E0027AD13 /* 111.bundle */,
-				24B733C8199DB26E0027AD13 /* 1111.bundle */,
-				24B733C9199DB26E0027AD13 /* 1111@2x.bundle */,
-				24B733CA199DB26E0027AD13 /* 111@2x.bundle */,
-				24B733CB199DB26E0027AD13 /* 112.bundle */,
-				24B733CC199DB26E0027AD13 /* 1121.bundle */,
-				24B733CD199DB26E0027AD13 /* 1121@2x.bundle */,
-				24B733CE199DB26E0027AD13 /* 112@2x.bundle */,
-				24B733CF199DB26E0027AD13 /* 113.bundle */,
-				24B733D0199DB26E0027AD13 /* 1131.bundle */,
-				24B733D1199DB26E0027AD13 /* 1131@2x.bundle */,
-				24B733D2199DB26E0027AD13 /* 113@2x.bundle */,
-				24B733D3199DB26E0027AD13 /* 114.bundle */,
-				24B733D4199DB26E0027AD13 /* 1141.bundle */,
-				24B733D5199DB26E0027AD13 /* 1141@2x.bundle */,
-				24B733D6199DB26E0027AD13 /* 114@2x.bundle */,
-				24B733D7199DB26E0027AD13 /* 11@2x.bundle */,
-				24B733D8199DB26E0027AD13 /* 1@2x.bundle */,
 			);
 			path = "Panorama Sources";
 			sourceTree = "<group>";
@@ -834,20 +857,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B7348B199DB26E0027AD13 /* 11@2x.bundle in Resources */,
 				24B734C3199DB26E0027AD13 /* 00054.jpg in Resources */,
 				24B73474199DB26E0027AD13 /* MoveStatus.png in Resources */,
 				24B734BB199DB26E0027AD13 /* 00046.jpg in Resources */,
 				24B7348E199DB26E0027AD13 /* 00001.jpg in Resources */,
-				24B73489199DB26E0027AD13 /* 1141@2x.bundle in Resources */,
 				24B73516199DB26E0027AD13 /* 00137.jpg in Resources */,
 				24B73511199DB26E0027AD13 /* 00132.jpg in Resources */,
 				24B73504199DB26E0027AD13 /* 00119.jpg in Resources */,
 				24B73508199DB26E0027AD13 /* 00123.jpg in Resources */,
+				247B5DC21C60FC8800A8129B /* 三楼浴室.bundle in Resources */,
 				24B734DD199DB26E0027AD13 /* 00080.jpg in Resources */,
 				24B73521199DB26E0027AD13 /* 00148.jpg in Resources */,
 				24B734ED199DB26E0027AD13 /* 00096.jpg in Resources */,
 				24B734E8199DB26E0027AD13 /* 00091.jpg in Resources */,
+				247B5DCF1C60FCAD00A8129B /* PanoramMenuItem.xib in Resources */,
 				24B734F9199DB26E0027AD13 /* 00108.jpg in Resources */,
 				24B73499199DB26E0027AD13 /* 00012.jpg in Resources */,
 				24B734B7199DB26E0027AD13 /* 00042.jpg in Resources */,
@@ -857,44 +880,44 @@
 				24B7350B199DB26E0027AD13 /* 00126.jpg in Resources */,
 				24B734A4199DB26E0027AD13 /* 00023.jpg in Resources */,
 				24B73471199DB26E0027AD13 /* AutoPlayStatus.png in Resources */,
+				247B5DBD1C60FC8800A8129B /* 三楼书房.bundle in Resources */,
 				24B734F1199DB26E0027AD13 /* 00100.jpg in Resources */,
 				24B734E4199DB26E0027AD13 /* 00087.jpg in Resources */,
+				247B5DB91C60FC8800A8129B /* 一楼娱乐室.bundle in Resources */,
 				24B734E9199DB26E0027AD13 /* 00092.jpg in Resources */,
 				24B734DA199DB26E0027AD13 /* 00077.jpg in Resources */,
 				24B7349D199DB26E0027AD13 /* 00016.jpg in Resources */,
 				24B73491199DB26E0027AD13 /* 00004.jpg in Resources */,
 				24B7348F199DB26E0027AD13 /* 00002.jpg in Resources */,
-				24B73481199DB26E0027AD13 /* 1121@2x.bundle in Resources */,
 				24B734A7199DB26E0027AD13 /* 00026.jpg in Resources */,
-				24B73486199DB26E0027AD13 /* 113@2x.bundle in Resources */,
+				247B5DC31C60FC8800A8129B /* 二楼卧室.bundle in Resources */,
 				24B734FC199DB26E0027AD13 /* 00111.jpg in Resources */,
 				24B73472199DB26E0027AD13 /* Back.png in Resources */,
 				24B734EC199DB26E0027AD13 /* 00095.jpg in Resources */,
 				24B734F7199DB26E0027AD13 /* 00106.jpg in Resources */,
 				24B734F5199DB26E0027AD13 /* 00104.jpg in Resources */,
 				24B734D0199DB26E0027AD13 /* 00067.jpg in Resources */,
+				247B5DB81C60FC8800A8129B /* 一楼台球室.bundle in Resources */,
 				24B734AD199DB26E0027AD13 /* 00032.jpg in Resources */,
+				247B5DB61C60FC8800A8129B /* 4.png in Resources */,
 				24B734CD199DB26E0027AD13 /* 00064.jpg in Resources */,
 				24B734DB199DB26E0027AD13 /* 00078.jpg in Resources */,
 				24B73520199DB26E0027AD13 /* 00147.jpg in Resources */,
+				247B5DBC1C60FC8800A8129B /* 一楼钢琴室.bundle in Resources */,
 				24B734AA199DB26E0027AD13 /* 00029.jpg in Resources */,
 				24B73515199DB26E0027AD13 /* 00136.jpg in Resources */,
 				24B734E2199DB26E0027AD13 /* 00085.jpg in Resources */,
 				241095AA196D877D004B976B /* SpinVC.xib in Resources */,
+				247B5DB71C60FC8800A8129B /* hotspot_arrow.png in Resources */,
+				247B5DBB1C60FC8800A8129B /* 一楼浴室.bundle in Resources */,
 				24B734D1199DB26E0027AD13 /* 00068.jpg in Resources */,
-				24B7347B199DB26E0027AD13 /* 111.bundle in Resources */,
 				24B734EE199DB26E0027AD13 /* 00097.jpg in Resources */,
 				24B73501199DB26E0027AD13 /* 00116.jpg in Resources */,
 				24B734D8199DB26E0027AD13 /* 00075.jpg in Resources */,
 				24B734FB199DB26E0027AD13 /* 00110.jpg in Resources */,
-				24B73483199DB26E0027AD13 /* 113.bundle in Resources */,
-				24B7347F199DB26E0027AD13 /* 112.bundle in Resources */,
 				24B734BC199DB26E0027AD13 /* 00047.jpg in Resources */,
 				24B7350D199DB26E0027AD13 /* 00128.jpg in Resources */,
-				24B7347E199DB26E0027AD13 /* 111@2x.bundle in Resources */,
-				24B73480199DB26E0027AD13 /* 1121.bundle in Resources */,
 				24B7351E199DB26E0027AD13 /* 00145.jpg in Resources */,
-				24B73487199DB26E0027AD13 /* 114.bundle in Resources */,
 				24B734FF199DB26E0027AD13 /* 00114.jpg in Resources */,
 				24B734B0199DB26E0027AD13 /* 00035.jpg in Resources */,
 				24B734DE199DB26E0027AD13 /* 00081.jpg in Resources */,
@@ -907,10 +930,10 @@
 				24B734B2199DB26E0027AD13 /* 00037.jpg in Resources */,
 				24B734D5199DB26E0027AD13 /* 00072.jpg in Resources */,
 				24B734A2199DB26E0027AD13 /* 00021.jpg in Resources */,
+				247B5DC61C60FC8800A8129B /* 二楼餐厅.bundle in Resources */,
 				247F0DE9196D1DD300CD200D /* Images.xcassets in Resources */,
 				24B734E7199DB26E0027AD13 /* 00090.jpg in Resources */,
 				24B73517199DB26E0027AD13 /* 00138.jpg in Resources */,
-				24B73484199DB26E0027AD13 /* 1131.bundle in Resources */,
 				24B734A1199DB26E0027AD13 /* 00020.jpg in Resources */,
 				24B734E6199DB26E0027AD13 /* 00089.jpg in Resources */,
 				24B73493199DB26E0027AD13 /* 00006.jpg in Resources */,
@@ -924,11 +947,8 @@
 				24B7350E199DB26E0027AD13 /* 00129.jpg in Resources */,
 				24B7351F199DB26E0027AD13 /* 00146.jpg in Resources */,
 				24B734D3199DB26E0027AD13 /* 00070.jpg in Resources */,
-				24B73488199DB26E0027AD13 /* 1141.bundle in Resources */,
 				24B73506199DB26E0027AD13 /* 00121.jpg in Resources */,
-				24B7348C199DB26E0027AD13 /* 1@2x.bundle in Resources */,
 				24B734D7199DB26E0027AD13 /* 00074.jpg in Resources */,
-				24B7347A199DB26E0027AD13 /* 11.bundle in Resources */,
 				24B734B9199DB26E0027AD13 /* 00044.jpg in Resources */,
 				24B734BF199DB26E0027AD13 /* 00050.jpg in Resources */,
 				24B734CB199DB26E0027AD13 /* 00062.jpg in Resources */,
@@ -958,8 +978,8 @@
 				24B734D4199DB26E0027AD13 /* 00071.jpg in Resources */,
 				24B734B3199DB26E0027AD13 /* 00038.jpg in Resources */,
 				24B73495199DB26E0027AD13 /* 00008.jpg in Resources */,
-				24B73482199DB26E0027AD13 /* 112@2x.bundle in Resources */,
 				24B734A9199DB26E0027AD13 /* 00028.jpg in Resources */,
+				247B5DC51C60FC8800A8129B /* 二楼客厅.bundle in Resources */,
 				24B73500199DB26E0027AD13 /* 00115.jpg in Resources */,
 				24B734C4199DB26E0027AD13 /* 00055.jpg in Resources */,
 				24B734B6199DB26E0027AD13 /* 00041.jpg in Resources */,
@@ -967,8 +987,10 @@
 				24B73522199DB26E0027AD13 /* 00149.jpg in Resources */,
 				24B73513199DB26E0027AD13 /* 00134.jpg in Resources */,
 				24B734F4199DB26E0027AD13 /* 00103.jpg in Resources */,
+				247B5DBA1C60FC8800A8129B /* 一楼客厅.bundle in Resources */,
+				247B5DBE1C60FC8800A8129B /* 三楼儿童房.bundle in Resources */,
+				247B5DC01C60FC8800A8129B /* 三楼客厅.bundle in Resources */,
 				24B73476199DB26E0027AD13 /* hotspot_arrow.png in Resources */,
-				24B73479199DB26E0027AD13 /* 1.bundle in Resources */,
 				24B734D6199DB26E0027AD13 /* 00073.jpg in Resources */,
 				24B734AF199DB26E0027AD13 /* 00034.jpg in Resources */,
 				24B734B8199DB26E0027AD13 /* 00043.jpg in Resources */,
@@ -978,12 +1000,10 @@
 				24B734F3199DB26E0027AD13 /* 00102.jpg in Resources */,
 				24B734F6199DB26E0027AD13 /* 00105.jpg in Resources */,
 				24B734C8199DB26E0027AD13 /* 00059.jpg in Resources */,
-				24B7348A199DB26E0027AD13 /* 114@2x.bundle in Resources */,
-				24B7347D199DB26E0027AD13 /* 1111@2x.bundle in Resources */,
-				24B7347C199DB26E0027AD13 /* 1111.bundle in Resources */,
 				24B734E5199DB26E0027AD13 /* 00088.jpg in Resources */,
 				24B73518199DB26E0027AD13 /* 00139.jpg in Resources */,
 				24B73473199DB26E0027AD13 /* GestureGude.png in Resources */,
+				247B5DD11C60FCAD00A8129B /* PanoramMenuView.xib in Resources */,
 				24B73507199DB26E0027AD13 /* 00122.jpg in Resources */,
 				24B734E3199DB26E0027AD13 /* 00086.jpg in Resources */,
 				24B734A8199DB26E0027AD13 /* 00027.jpg in Resources */,
@@ -991,8 +1011,8 @@
 				24B73505199DB26E0027AD13 /* 00120.jpg in Resources */,
 				24B73512199DB26E0027AD13 /* 00133.jpg in Resources */,
 				24B7351D199DB26E0027AD13 /* 00144.jpg in Resources */,
-				24B73485199DB26E0027AD13 /* 1131@2x.bundle in Resources */,
 				24B7350C199DB26E0027AD13 /* 00127.jpg in Resources */,
+				247B5DC41C60FC8800A8129B /* 二楼大厅.bundle in Resources */,
 				24B734D9199DB26E0027AD13 /* 00076.jpg in Resources */,
 				24B734AE199DB26E0027AD13 /* 00033.jpg in Resources */,
 				24B734E0199DB26E0027AD13 /* 00083.jpg in Resources */,
@@ -1011,6 +1031,8 @@
 				24B734C5199DB26E0027AD13 /* 00056.jpg in Resources */,
 				24B734C7199DB26E0027AD13 /* 00058.jpg in Resources */,
 				24B734F2199DB26E0027AD13 /* 00101.jpg in Resources */,
+				247B5DBF1C60FC8800A8129B /* 三楼大卧室.bundle in Resources */,
+				247B5DC11C60FC8800A8129B /* 三楼小卧室.bundle in Resources */,
 				24B73490199DB26E0027AD13 /* 00003.jpg in Resources */,
 				24B7350A199DB26E0027AD13 /* 00125.jpg in Resources */,
 				24B734FD199DB26E0027AD13 /* 00112.jpg in Resources */,
@@ -1035,7 +1057,9 @@
 			files = (
 				247F0DE7196D1DD300CD200D /* ViewController.m in Sources */,
 				247F0DE1196D1DD300CD200D /* AppDelegate.m in Sources */,
+				247B5DCE1C60FCAD00A8129B /* PanoramMenuItem.m in Sources */,
 				241095A9196D877D004B976B /* SpinVC.m in Sources */,
+				247B5DD01C60FCAD00A8129B /* PanoramMenuView.m in Sources */,
 				247F0DDD196D1DD300CD200D /* main.m in Sources */,
 				241095AE196D8920004B976B /* PanoramVC.m in Sources */,
 			);

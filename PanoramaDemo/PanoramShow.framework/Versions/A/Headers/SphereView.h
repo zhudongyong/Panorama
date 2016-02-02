@@ -63,7 +63,8 @@
 - (BOOL)addObjectWithImages:(NSArray*)images
                        face:(SphereFace)face
                         pos:(CGPoint)position    //[0, 1]
-                       size:(CGSize)size;
+                       size:(CGSize)size
+                        key:(NSString *)key;
 
 //Scale | Transform | rotate Animation
 - (BOOL)addObjectWithImage:(UIImage*)images
@@ -72,13 +73,15 @@
                       size:(CGSize)size         //[0, 1]
                      scale:(CGSize)scale
                  transform:(CGSize)transform
-                    rotate:(float)radian;
+                    rotate:(float)radian
+                       key:(NSString *)key;
 
 - (BOOL)addObjectWithImages:(NSArray*)images
                        face:(SphereFace)face
                         pos:(CGPoint)position    //[0, 1]
                        size:(CGSize)size         //[0, 1]
-              animationType:(AnimationType)animationType;
+              animationType:(AnimationType)animationType
+                        key:(NSString *)key;
 
 - (BOOL)removeObject:(RenderObject*)object;
 
@@ -93,8 +96,13 @@
 @optional
 - (void)sphereView:(SphereView*)sphereView receivedActionInPosition:(CGPoint)position;
 
-- (void)sphereView:(SphereView*)sphereView receivedActionInFace:(SphereFace)face position:(CGPoint)position;
+- (void)sphereView:(SphereView*)sphereView receivedActionInFace:(SphereFace)face
+          position:(CGPoint)position;
 
-- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index localPoint:(CGPoint)point;
+- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index
+        localPoint:(CGPoint)point;
+- (void)sphereView:(SphereView *)sphereView receivedTapActionForObjectAtIndex:(NSUInteger)index
+        localPoint:(CGPoint)point
+               key:(NSString*)key;
 
 @end
